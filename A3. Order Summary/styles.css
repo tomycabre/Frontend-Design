@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-color: #e0e8ff;
+  background-size: contain;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+/*!   HEADER   */
+
+header {
+  padding: 0.4rem 0;
+  background-color: #395b64;
+  box-shadow: 0 0 0.2rem #395b64;
+}
+
+nav {
+  margin: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #e7f6f2;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 0 1.5rem;
+  list-style: none;
+}
+
+nav ul li a:hover {
+  color: #c5c5c5;
+}
+
+/*!   MAIN   */
+
+.card {
+  display: block;
+  background-color: white;
+  width: 440px;
+  height: 645px;
+  border-radius: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 160px;
+}
+
+.image {
+  width: 440px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.mid-container {
+  padding-left: 70px;
+  padding-right: 70px;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.header {
+  font-size: 14px;
+  font-weight: bolder;
+  color: hsl(223, 47%, 23%);
+}
+
+.p-1 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-container {
+  display: block;
+  margin: auto;
+  border-radius: 12px;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  padding: 20px;
+  font-size: 14px;
+  background-color: hsl(225, 100%, 98%);
+  -ms-transform: translateX(-10%);
+  transform: translateX(-6%);
+}
+
+.icon {
+  float: left;
+  margin-right: 18px;
+}
+
+.plan-text {
+  -ms-transform: translateY(-10%);
+  transform: translateY(-8%);
+  line-height: 0.5;
+  float: left;
+}
+
+.plan-cost {
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-change {
+  font-weight: 700;
+  margin-top: 15px;
+  float: right;
+}
+
+.change-button {
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+
+.plan-change:hover {
+  text-decoration: inherit;
+  opacity: 70%;
+}
+
+.bottom-container {
+  color: white;
+}
+
+.proceed-button {
+  box-shadow: 0px 14px 23px -10px hsl(210, 23%, 55%);
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 100px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.proceed-button:hover {
+  opacity: 70%;
+}
+
+.proceed-button:active {
+  position: relative;
+  top: 1px;
+}
+
+.cancel-button {
+  color: hsl(224, 23%, 55%);
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.bottom-container-2 {
+  color: hsl(224, 23%, 55%);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancel-button:hover {
+  color: hsl(223, 47%, 23%);
+  font-weight: bolder;
+}
+
+.cancel-button:active {
+  position: relative;
+  top: 1px;
+}

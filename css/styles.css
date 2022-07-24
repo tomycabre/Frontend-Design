@@ -57,7 +57,7 @@ section {
 }
 
 .card {
-  background-color: #a5c9ca;
+  background-color: white;
   border-radius: 6px;
   width: 100%;
   overflow: hidden;
@@ -75,6 +75,7 @@ section {
 }
 
 .card a {
+  color: rgb(22, 211, 228);
   display: flex;
   justify-content: right;
   padding: 1rem;
