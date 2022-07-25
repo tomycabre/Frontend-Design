@@ -75,11 +75,15 @@ section {
 }
 
 .card a {
-  color: rgb(22, 211, 228);
+  color: #395b64;
   display: flex;
   justify-content: right;
   padding: 1rem;
   text-decoration: none;
+}
+
+.card a:hover {
+  color: rgb(22, 211, 228);
 }
 
 /*!   FOOTER   */
