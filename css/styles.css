@@ -88,6 +88,20 @@ section {
 
 /*!   FOOTER   */
 
+footer {
+  height: 6rem;
+  padding: 1rem;
+  background-color: #395b64;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.icons {
+  width: 6rem;
+  margin: 0 2rem;
+}
+
 /*!   MEDIA QUERIES   */
 
 @media (max-width: 76.25rem) {
