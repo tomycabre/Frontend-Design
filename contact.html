@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Designs</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
     <link rel="icon" type="image/x-icon" href="/icons/Profile Picture.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +26,102 @@
         </ul>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <h1>Contact Us</h1>
+      <form action="" method="GET">
+        <div class="section">
+          <h2>Your contact information</h2>
+          <div>
+            <label for="nameinp">Your Name</label>
+            <input
+              type="text"
+              name="name"
+              id="nameinp"
+              required
+              maxlength="30"
+            />
+          </div>
+          <div>
+            <label for="emailinp">Your E-mail Address</label>
+            <input type="email" name="email" id="emailinp" required />
+          </div>
+          <div>
+            <label for="phoneinp">Your Phone Number</label>
+            <input type="number" name="phone" id="phoneinp" required />
+          </div>
+        </div>
+        <div class="section">
+          <div>
+            <label for="messageimp">Your Message</label>
+            <textarea
+              name="message"
+              id="messageimp"
+              rows="10"
+              required
+              minlength="10"
+              maxlength="200"
+            ></textarea>
+          </div>
+          <div>
+            <label for="selectimp">How did you find me?</label>
+            <select name="select" id="selectimp" required>
+              <option value="">Select an option</option>
+              <option value="">LinkedIn</option>
+              <option value="">Git Hub</option>
+              <option value="">Stack Overflow</option>
+              <option value="">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="section">
+          <h2>How should I reply?</h2>
+          <div>
+            <ul>
+              <li>
+                <input type="radio" name="reply" id="callimp" required />
+                <label for="callimp">Call me</label>
+              </li>
+              <li>
+                <input type="radio" name="reply" id="emailsendimp" required />
+                <label for="emailsendimp">Send me an email</label>
+              </li>
+              <li>
+                <input type="radio" name="reply" id="dontreplyimp" required />
+                <label for="dontreplyimp">Don't reply</label>
+              </li>
+              <li class="terms">
+                <input
+                  type="checkbox"
+                  name="validation"
+                  id="validationimp"
+                  required
+                />
+                <label for="validationimp">Accept Terms</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section btn-section">
+          <button class="form-btn-clear" type="reset">Clear</button>
+          <button class="form-btn-submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <a href="https://www.linkedin.com/in/tommascabrera/">
+        <img
+          class="icons"
+          src="./icons/317750_linkedin_icon.png"
+          alt="Linkedin Profile"
+        />
+      </a>
+      <a href="https://github.com/tomycabre">
+        <img
+          class="icons"
+          src="./icons/317712_code repository_github_repository_resource_icon.png"
+          alt="Linkedin Profile"
+        />
+      </a>
+    </footer>
   </body>
 </html>

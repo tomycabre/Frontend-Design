@@ -1,0 +1,115 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+form {
+  width: 50rem;
+  background-color: whitesmoke;
+}
+
+section,
+.section {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+section,
+.section h2 {
+  margin: 1rem 0 0.5rem 0;
+  font-weight: bold;
+}
+
+section,
+.section,
+div {
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+section,
+.section div select,
+input {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0.2rem;
+  height: 2rem;
+}
+
+select {
+  cursor: pointer;
+}
+
+textarea {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0.2rem;
+  resize: vertical;
+}
+
+.section ul {
+  padding: 0.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section ul li {
+  display: flex;
+  align-items: center;
+}
+
+.section ul li label {
+  padding-left: 0.4rem;
+  cursor: pointer;
+}
+
+.section ul li input {
+  cursor: pointer;
+}
+
+.terms {
+  margin-top: 1.2rem;
+}
+
+.btn-section {
+  padding: 0.4rem;
+  flex-direction: row;
+  display: flex;
+  justify-content: end;
+}
+
+.form-btn-clear {
+  background-color: whitesmoke;
+  color: #395b64;
+  border: #395b64 2px solid;
+  cursor: pointer;
+  width: 5rem;
+  padding: 0.5rem;
+  margin: 0 1rem 1rem 0;
+}
+
+.form-btn-clear:active {
+  position: relative;
+  top: 1px;
+}
+
+.form-btn-submit {
+  background-color: #395b64;
+  border: #395b64 2px solid;
+  color: white;
+  cursor: pointer;
+  width: 5rem;
+  padding: 0.5rem;
+  margin: 0 0.4rem 1rem 0;
+}
+
+.form-btn-submit:active {
+  position: relative;
+  top: 1px;
+}
