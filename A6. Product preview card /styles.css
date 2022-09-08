@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  background-color: var(--cream);
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/*!   HEADER   */
+header {
+  padding: 0.4rem 0;
+  background-color: #395b64;
+  box-shadow: 0 0 0.2rem #395b64;
+}
+
+nav {
+  margin: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #e7f6f2;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 0 1.5rem;
+  list-style: none;
+}
+
+nav ul li a:hover {
+  color: #c5c5c5;
+}
+
+/*! Default styles */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*! Main styles */
+* {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --dark-blue: hsl(212, 21%, 14%);
+  --gray-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0 4rem 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+/*! Image styles */
+
+.image-container {
+  width: 18rem;
+  height: 446.31px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.perfume-img {
+  width: 18rem;
+  height: 446.31px;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/*! Text styles */
+
+.data-container {
+  width: 14rem;
+  background-color: var(--white);
+  padding: 2rem 2rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.4rem;
+}
+
+.perfume {
+  font-family: "Montserrat", serif;
+  letter-spacing: 5px;
+  color: var(--gray-blue);
+  margin-top: 0;
+}
+
+.card-h {
+  font-family: "Fraunces", serif;
+  line-height: 2rem;
+}
+
+.card-p {
+  font-family: "Montserrat", serif;
+  color: var(--gray-blue);
+}
+
+.card-prices {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.price {
+  font-family: "Fraunces", serif;
+}
+
+.new-price {
+  color: var(--dark-cyan);
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+.old-price {
+  color: var(--gray-blue);
+  margin-top: 0;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  padding: 0.9rem 3.82rem;
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  border: 0;
+  border-radius: 6px;
+}
+
+.cart-icon {
+  margin-right: 0.5rem;
+}
